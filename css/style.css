@@ -130,3 +130,28 @@ footer {
   line-height: 1.4;
   padding: 0 10px;
 }
+
+/* Контейнеры для секций с фоном и рамкой */
+.section-box {
+  background-color: rgba(10, 10, 30, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 40px;
+  margin-bottom: 60px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.05);
+}
+
+/* Центрирование контента */
+section .content {
+  text-align: center;
+}
+
+/* Выравнивание списков */
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+.about ul li::before {
+  content: "• ";
+  color: #00ffff;
+}
